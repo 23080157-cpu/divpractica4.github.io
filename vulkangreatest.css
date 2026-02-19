@@ -1,0 +1,48 @@
+@font-face {
+    font-family: shuin;
+    src: url(fuentes/Shuin\ Sans.otf);
+}
+
+body {
+    background-image: url(img/backdrop.jpg);
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: 900px 160px;
+}
+
+div#window {
+    font-family: shuin;
+    border: 6px solid;
+    border-color: #ffffff #555555 #555555 #ffffff;
+    background-color: rgb(201, 201, 201);
+    color: #1b1b1d;
+    position: absolute;
+    width: 800px;
+    height: 400px;
+    right: 1070px;
+    top: 10px;
+    padding-left: 1%;
+}
+
+@keyframes shake {
+    0% { box-shadow: 2px -2px #ff0000, -2px 2px #00fff9; }
+    25% { box-shadow: -2px 2px #ff0000, 2px -2px #00fff9; }
+    50% { box-shadow: 2px 2px #ff0000, -2px -2px #00fff9; }
+    75% { box-shadow: -2px -2px #ff00c1, 2px 2px #00fff9; }
+    100% { box-shadow: 2px -2px #ff00c1, -2px 2px #00fff9; }
+}
+
+div#window2 {
+    font-family: shuin;
+    border: 6px double;
+    border-color: #ffffff #555555 #555555 #ffffff;
+    background-color: rgb(201, 201, 201);
+    color: #1b1b1d;
+    position: absolute;
+    width: 800px;
+    height: 400px;
+    right: 1070px;
+    top: 500px;
+    padding-left: 1%;
+    animation: shake 0.2s infinite;
+}
