@@ -40,10 +40,11 @@ div#window2 {
     color: #1b1b1d;
     position: absolute;
     width: 800px;
-    height: 800px;
+    height: auto;
     right: 1070px;
     top: 500px;
     padding-left: 1%;
     animation: shake 0.2s infinite;
 
 }
+
